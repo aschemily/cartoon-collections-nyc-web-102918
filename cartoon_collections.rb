@@ -20,15 +20,12 @@ def long_planeteer_calls(fruits)# code an argument here
   end
 end
 
-def find_the_cheese(arr1, arr2)# code an argument here
+def find_the_cheese(array)# code an argument here
   # the array below is here to help
-   i = 0
+ 
   cheese_types = ["cheddar", "gouda", "camembert"]
   
-  while i < cheese_types.length
-  if cheddar_cheese.include?(cheese_types[i])
-  i += 1 
- 
-  end
-   return cheese_types[i] 
+  array.find do |type|
+  cheese_types.include?(type)
+end
 end
