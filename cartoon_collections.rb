@@ -6,12 +6,12 @@ def roll_call_dwarves(dwarfs)# code an argument here
   end
 end
 
-def summon_captain_planet(veggies)# code an argument here
-  # Your code here
-  veggies.collect do |call|
-  call.capitalize << "!"
-  end
-end
+# def summon_captain_planet(veggies)# code an argument here
+#   # Your code here
+#   veggies.collect do |call|
+#   call.capitalize << "!"
+#   end
+# end
 
 # def long_planeteer_calls(fruits)# code an argument here
 #   # Your code here
