@@ -1,10 +1,10 @@
-# def roll_call_dwarves(dwarfs) # code an argument here
-#   # Your code here
-#   dwarfs.each_with_index do |name, index|
+def roll_call_dwarves(dwarfs) # code an argument here
+  # Your code here
+  dwarfs.each_with_index do |name, index|
     
-#     puts "#{index + 1}, #{name}"
-#   end
-# end
+    puts "#{index + 1}, #{name}"
+  end
+end
 
 def summon_captain_planet(veggies)# code an argument here
   # Your code here
