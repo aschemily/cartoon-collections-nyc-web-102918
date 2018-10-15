@@ -20,7 +20,7 @@ def long_planeteer_calls(fruits)# code an argument here
   end
 end
 
-def find_the_cheese(cheddar_cheese)# code an argument here
+def find_the_cheese(arr1, arr2)# code an argument here
   # the array below is here to help
    i = 0
   cheese_types = ["cheddar", "gouda", "camembert"]
